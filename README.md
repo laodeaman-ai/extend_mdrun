@@ -3,9 +3,10 @@ Skrip ini adalah alat bantu yang dirancang untuk memperpanjang (extend) simulasi
 
 **Cara Penggunaan:**
 1. Siapkan file konfigurasi `config.txt` yang berisi parameter lama extend simulasi `ps_extend`.
-2. Letakkan skrip `gmx_extend.sh` dan file konfigurasi `config.txt` di direktori yang sama dengan direktori-direktori tempat Anda ingin menjalankan simulasi.
-3. Berikan izin eksekusi pada skrip dengan perintah: `chmod +x gmx_extend.sh.sh`
-4. Jalankan skrip dengan perintah: `./gmx_extend.sh`
+2. Lakukan modifikasi lama simulasi (ps_extend0 sesuai dengan yang anda inginkan pada file config.txt. Yang terisi default adalah 150000 ps (150 ns).
+3. Letakkan skrip `gmx_extend.sh` dan file konfigurasi `config.txt` di direktori yang sama dengan direktori-direktori tempat Anda ingin menjalankan simulasi.
+4. Berikan izin eksekusi pada skrip dengan perintah: `chmod +x gmx_extend.sh.sh`
+5. Jalankan skrip dengan perintah: `./gmx_extend.sh`
 
 **Detail Proses:**
 - Skrip akan meloop melalui semua direktori di direktori kerja saat ini.
